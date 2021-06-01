@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title> Impertotalsul </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+        <meta name="author" content="Gustavo Giglio">
+        <meta name="description" content="Impermeabilização em situações especiais, recuperação de telhados e calhas">
+        <meta name="keywords" content="Impermeabilização, recuperação, telhados, laje, mureta, infiltração">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <!-- Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+        
+        <link rel="stylesheet" href="style/normalize.css">
+        <link rel="stylesheet" href="style/main.css">
+    </head>
+
+    <body class="no-js" id="topo">
+       
+        <header class="header">
+          <a href="index.html" class="logo-text">ImperTotalSul</a>
+          
+          <button style="display: none;" class="header__btnMenu"> <i class="fas fa-bars fa-2x"></i> <span class="sr-only">Menu</span></button>
+          
+          <nav class="header__nav">
+            <!--Adiconado menu de navegação na pag, para facilitar o acesso dos clientes-->
+            <ul>
+                <li><a href="index.html">Nossa equipe</a></li>
+                <li><a href="index.html">serviços</a></li>
+                <li><a href="index.html">Produtos</a></li>
+                <li><a href="#contato">contato</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <section class="hero"> 
+            <div class="form__input">
+                <h2>Faça contato por aqui</h2>
+                <!--adicionado um formulário para o cliente entrar em contanto com a empresa-->
+                <form action="">
+            
+                  <div class="">
+                    <label for="nome">*Nome:</label>
+                    <input  type="text" name="nome" id="id_nome" required="required" style="font-size:16px"><br><br>
+                   
+                    <label for="email">*Email:</label>
+                    <input type="email" pattern="^[0-9a-zA-Z-._+]+@[a-zA-Z0-9-_+]+\.[a-zA-Z]+(\.[a-zA-Z]+)?" required="required"><br><br>
+                    
+                    <label for="id_telefone">Telefone:</label>
+                    <input type="text" nome="telefone" id="id_telefone"><br>
+                   
+                    <label for="id_mensagem"></label><br>
+                    <textarea name="mensagem" id="id_mensagem" required="required" cols="20.5" rows="5" placeholder="Deixe sua mensagem:"></textarea><br><br>
+                    
+                    <div class="enviar input"> 
+                      <input type="submit" value="Enviar"> 
+                    </div>
+
+                  </div>
+                </form>
+            </div>
+        </section>
+        
+        <footer class="footer">
+            <div class="container" id="contato">
+              <h2 class="footer__logo">ImperTotalSul</h2>
+                
+              <!--adicionado dados para contato-->
+              <h3>Contato:</h3>
+              <ul>
+                <li><i class="fab fa-whatsapp"></i> (51)8682.1010</li>
+                <li><i class="far fa-envelope"></i> totalsulimpermeabilizacao@gmail.com</li>
+                <li><i class="fas fa-map-marker-alt"></i> Teresópolis, Porto Alegre - RS</li>
+              </ul>
+              
+            </div>
+        </footer>
+    </body>
+</html>
